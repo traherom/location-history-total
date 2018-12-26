@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "location-history-total"
+version = "0.1.0"
+description = "Given a Takeout of Google Location History, generate a CSV of work history."
+authors = ["Ryan Morehart <ryan@moreharts.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/traherom/location-history-total"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
