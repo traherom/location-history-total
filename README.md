@@ -13,7 +13,7 @@ Requires Python 3.6+.
     38.8100121,-104.6792472, 0.04
     39.1355552,-121.3484781, 0.1
     ```
-    
+
     Google Maps will be handy for determining the latitude and longitude of places.
 
 2. Use Google Takeout to export your location history.
@@ -27,10 +27,10 @@ Requires Python 3.6+.
 
     ```
     # Dump information to screen
-    ./extact2.py history.json --area=area.txt --time=1538373600,1551423600 
-    
+    location-history-total history.json --area=area.txt --time=1538373600,1551423600
+
     # Or to a CSV
-    ./extact2.py history.json --area=area.txt --time=1538373600,1551423600 --output=results.csv
+    location-history-total history.json --area=area.txt --time=1538373600,1551423600 --output=results.csv
     ```
-    
-    
+
+

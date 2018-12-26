@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "location-history-total"
-version = "0.1.0"
+version = "0.1.1"
 description = "Given a Takeout of Google Location History, generate a CSV of work history."
 authors = ["Ryan Morehart <ryan@moreharts.com>"]
 license = "MIT"
